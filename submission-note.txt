@@ -1,0 +1,21 @@
+﻿Cookie Kitchen — Project Note
+
+Idea: Cookie Kitchen is a playful browser drawing game where users sketch or upload a cookie, bake it into a simple 3D treat, arrange it on a plate, resize it, and decorate it with piped frosting and 3D sprinkles.
+
+Who it is for: People who enjoy casual creative tools, especially artists and users looking for a low-pressure way to play with drawing and decorating ideas.
+
+What I explored: I combined pointer-based canvas drawing and image upload with transparent-pixel silhouette extraction, generated 3D cookie geometry and textures, drag-to-move and drag-to-resize interactions, adjustable raised frosting, 3D sprinkles, custom cursor states, undo controls and PNG export. Three.js supports the 3D scene (Three.js n.d.), and the platter uses a CC0 model by Innerscene Corp (n.d.). The interface fonts are served by Google Fonts (Google n.d.).
+
+What I would improve: I would refine cookie conversion for complex outlines, improve touch controls on small screens, and let users save and reopen editable scenes in addition to exporting an image.
+
+AI acknowledgement: I used ChatGPT (OpenAI 2026) to help write, debug and revise code for this project. I reviewed and adapted the suggestions.
+
+References
+
+Google (n.d.) Google Fonts, Google Fonts website, accessed 12 November 2026. https://fonts.google.com/
+
+Innerscene Corp (n.d.) *Original ceramic sushi tray* [3D model], Innerscene website, accessed 12 November 2026. https://innerscene.com/
+
+OpenAI (2026) ChatGPT [Large language model], accessed 12 November 2026. https://chatgpt.com/
+
+Three.js (n.d.) three.js docs, Three.js website, accessed 12 November 2026. https://threejs.org/docs/
